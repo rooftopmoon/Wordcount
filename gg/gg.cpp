@@ -61,7 +61,11 @@ int main(int argc, char *argv[])
 	{
 		WordCount();
 	}
-
+	int i = 0;
+	for(;i<5;i++)
+	{
+		i += i;
+ }
 	return 0;
 }// 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单
